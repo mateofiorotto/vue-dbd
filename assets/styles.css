@@ -1,0 +1,184 @@
+/*GENERALES*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 3.5em;
+  }
+
+  /*BANNER*/
+  #banner p {
+    font-size: 2.2em;
+    color: white;
+  }
+
+  header {
+    padding-top: 10em;
+  }
+
+  #ir-a-cazar {
+    padding: 1.5em;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: auto;
+    text-transform: uppercase;
+    border-radius: 2em;
+  }
+
+  #banner {
+    background-image: url(imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 10px solid white;
+  }
+
+  #banner i {
+    padding-left: 0.5em;
+    font-size: 1.2em;
+  }
+
+  #banner i span {
+    font-size: 0;
+  }
+
+  /*APP*/
+  #app p {
+    color: black;
+    font-size: 1.75em;
+  }
+
+
+  .bold-rojo {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  
+ label {
+  font-weight: bold;
+  color: white;
+  font-size: 1.25em;
+ }
+
+.mensaje-error {
+  color: red;
+}
+
+select {
+  border-width: 3px !important;
+}
+
+.borde-rojo {
+  border: 3px solid #dc3545;
+}
+
+.borde-verde {
+  border: 3px solid rgb(90, 199, 90);
+}
+
+form {
+  padding-top: 2em;
+}
+
+#crear-historia, #div-historia a {
+  background-color: rgb(255, 0, 0) !important;
+  border: none;
+  color: white;
+  padding: 2em;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1em;
+}
+
+#div-historia a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#div-historia p {
+  color: white;
+}
+
+#div-historia h2 {
+  color: red;
+}
+
+
+.la.enfermera{
+  background-image: url("imgs/enfermera.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.el.granjero{
+  background-image: url("imgs/granjero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.el.trampero{
+  background-image: url("imgs/trampero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.el.espectro{
+  background-image: url("imgs/espectro.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.la.cazadora{
+  background-image: url("imgs/cazadora.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.fondo-form {
+  background-image: url(imgs/fondo-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid white;
+}
+
+form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
